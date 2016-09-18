@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="11217105932510"
+    token="2425064125281442088" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/home/sfilatov96/AndroidStudioProjects/Lecture3-Multithreading/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+
+    <build timestamp="5265684710213" >
+        <artifact
+            location="/home/sfilatov96/AndroidStudioProjects/Lecture3-Multithreading/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="11195177774451"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/sfilatov96/AndroidStudioProjects/Lecture3-Multithreading/app/build/intermediates/builds/debug/11195177774451/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="11217105932510" >
+        <artifact
+            location="/home/sfilatov96/AndroidStudioProjects/Lecture3-Multithreading/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
